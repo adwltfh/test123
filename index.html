@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Header Section -->
+        <div id="header">
+            <h2>TYPING GAME</h2>
+            
+            <div id="time">
+                <h2>TIME</h2>
+                <h3 id="counter">00</h3>
+                <h2 id="start">Klik di Sini untuk Memulai</h2>
+            </div>
+            
+            <div id="textarea">
+                <div id="typingText"></div>
+                <textarea id="userInput" placeholder="Ketik di sini."></textarea>
+            </div>
+            
+            <div id="result">
+                <div class="showResult">
+                    <h2>WPM</h2>
+                    <h1 id="words">00</h1>
+                </div>
+
+                <div class="showResult">
+                    <h2>CPM</h2>
+                    <h1 id="characters">00</h1>
+                </div>
+
+                <div class="showResult">
+                    <h2>ERRORS</h2>
+                    <h1 id="error">00</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
